@@ -1,4 +1,4 @@
-//double → float → long → int → short → byte
+//  double → float → long → int → short → byte
 
 class ExplicitConversion{
     public static void main(String args[]){
