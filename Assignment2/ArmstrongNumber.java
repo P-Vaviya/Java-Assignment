@@ -26,7 +26,7 @@ class ArmstrongNumber{
         }
 
 
-
+        myObj.close();
 
     }
 }

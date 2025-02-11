@@ -42,5 +42,6 @@ class ArithmeticOperation{
             
         
         while(true);
+        myObj.close();
     }
 }

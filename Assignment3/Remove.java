@@ -14,7 +14,6 @@ public class Remove {
 
         if (index < 0 || index >= originalArray.length) {
             System.out.println("Invalid index");
-            return;
         }
 
         int[] newArray = new int[originalArray.length - 1];
@@ -29,5 +28,7 @@ public class Remove {
         for (int num : newArray) {
             System.out.print(num + " ");
         }
+
+        myObj.close();
     }
 }

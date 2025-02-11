@@ -15,5 +15,7 @@ class MultiplicationTable{
             System.out.print( num * i);
             System.out.println();
         } 
+
+        myObj.close();
     }
 }

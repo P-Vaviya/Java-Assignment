@@ -30,5 +30,7 @@ class Weekday{
                 System.out.println("Sunday");
                 break;
         }
+
+        myObj.close();
     }
 }

@@ -7,7 +7,7 @@ class PrimeNumber{
         System.out.print("Enter a number to check prime number : ");
         int num1 = myObj.nextInt();
 
-        for(int i = 2; i< Math.sqrt(num1);i++){
+        for(int i = 2; i< Math.sqrt(num1);){
             if(num1 % i == 0){
                 System.out.print("It is not a prime number ");
                 break;
@@ -18,5 +18,6 @@ class PrimeNumber{
 
             }
         }
+        myObj.close();
     }
 }

@@ -30,5 +30,7 @@ class StudentsGrades{
 
         }
 
+        myObj.close();
+
     }
 }

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Incre_Decre_Operators {
     public static void main(String args[]) {
         //post-increment operator

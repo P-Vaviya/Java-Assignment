@@ -18,6 +18,8 @@ class Insert{
 
         System.out.println("Element after insertion : " + arr1[index]);
 
+        myObj.close();
+
 
 
 

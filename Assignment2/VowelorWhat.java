@@ -27,5 +27,6 @@ class VowelorWhat{
                 System.out.println("It is consonant");
                 break;
         }
+        myObj.close();
     }
 }

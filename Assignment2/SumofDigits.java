@@ -15,5 +15,6 @@ class SumofDigits{
             num2 += n;
         }
         System.out.println(num2);
+        myObj.close();
     }
 }
